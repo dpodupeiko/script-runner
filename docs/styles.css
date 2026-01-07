@@ -48,4 +48,8 @@ button {
     border-style: outset;
     border-color: buttonborder;
     border-image: initial;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.aui-button-primary:focus, .aui-button-primary:hover {
+    background-color: #05c
 }
