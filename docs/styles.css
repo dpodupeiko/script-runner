@@ -1,12 +1,12 @@
 .aui-button {
-    background-color: var(--aui-btn-bg);
+    background-color: #0c66e4;
     background-image: none;
     border-radius: 3.01px;
     border-style: solid;
     border-width: 1px;
-    border: 1px solid var(--aui-btn-border);
+    border: 1px solid #0000;
     box-sizing: border-box;
-    color: var(--aui-btn-text);
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
@@ -22,15 +22,11 @@
     white-space: nowrap;
 }
 .aui-button-primary {
-    --aui-btn-bg: var(--aui-button-primary-bg-color);
-    --aui-btn-text: var(--aui-button-primary-text-color);
+    background-color: #0c66e4;
+    color: #fff;
     font-weight: 600;
 }
 
-.aui-button-primary:focus, .aui-button-primary:hover {
-    --aui-btn-bg: var(--aui-button-primary-hover-bg-color);
-    --aui-btn-text: var(--aui-button-primary-active-text-color);
-}
 button {
     text-rendering: auto;
     color: buttontext;
