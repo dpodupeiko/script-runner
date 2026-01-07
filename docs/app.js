@@ -6,3 +6,11 @@ changeButton.addEventListener('click', function() {
     // Change the text content of the H1 element
     mainHeading.textContent = 'The text has been changed!';
 });
+AdaptavistBridge.request({
+    url: `/rest/api/2/issue/${AdaptavistBridgeContext.context.issueKey}`,
+    type: 'GET'
+})
+    .then(issue => {
+        console.log('issue', issue)
+        mainHeading.textContent = `${issue.key}:`;
+    });
