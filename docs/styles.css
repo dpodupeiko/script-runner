@@ -1,3 +1,33 @@
-h1{
-  color:#f00;
+.aui-button {
+    background-color: var(--aui-btn-bg);
+    background-image: none;
+    border-radius: 3.01px;
+    border-style: solid;
+    border-width: 1px;
+    border: 1px solid var(--aui-btn-border);
+    box-sizing: border-box;
+    color: var(--aui-btn-text);
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: 400;
+    height: 2.14285714em;
+    line-height: 1.42857143em;
+    margin: 0;
+    padding: 4px 10px;
+    transition: background-color .1s ease-out;
+    vertical-align: initial;
+    white-space: nowrap;
+}
+.aui-button-primary {
+    --aui-btn-bg: var(--aui-button-primary-bg-color);
+    --aui-btn-text: var(--aui-button-primary-text-color);
+    font-weight: 600;
+}
+
+.aui-button-primary:focus, .aui-button-primary:hover {
+    --aui-btn-bg: var(--aui-button-primary-hover-bg-color);
+    --aui-btn-text: var(--aui-button-primary-active-text-color);
 }
